@@ -17,7 +17,7 @@ links = [
         "img" : ""
     },
         {
-        "text" : "Profile 42",
+        "text" : "Profil 42",
         "link" : "https://profile.intra.42.fr/users/cdelaby",
     }
 ]
