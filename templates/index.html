@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <p class=pow_by><img class="fit-picture"
+        src="{{ url_for('static',filename='img/bocal.png') }}"
+        alt="flask_logo"></p>
+</head>
+<body>
+<link rel= "stylesheet" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
+<h1>Bocal Interview Application</h1>
+
+<h3>
+{%for i in template_links%}
+<p ><a class=box href='{{i["link"]}}'>{{i["text"]}}</a></p>
+{%endfor%}
+</h3>
+
+</body>
+</html>
