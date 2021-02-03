@@ -17,7 +17,7 @@ links = [
         "img" : ""
     },
         {
-        "text" : "Profil 42",
-        "link" : "https://profile.intra.42.fr/users/cdelaby",
+        "text" : "Codewars Profile",
+        "link" : "https://www.codewars.com/users/Fitz-commits",
     }
 ]
